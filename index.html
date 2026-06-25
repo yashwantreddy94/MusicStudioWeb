@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>The Elysium Collective</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <!-- <h1>The Elysium <span>Collective</span></h1> -->
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <!-- <li><a href="#contact" class="btn-contact">Reach Us Out</a></li> -->
+            </ul>
+            <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Scrolling Artists -->
+    <header id="home">
+        <div class="hero-content">
+            <h1>
+                <img src="images/logo.png" alt="Logo" class="logo-img" loading="lazy">
+            </h1>
+        </div>        
+    </header>
+
+    <!-- Artist Scroll Section -->
+    <section class="artist-marquee-section">
+        <div class="artist-scroll-container">
+            <div class="artist-scroll" id="artistScroll">
+                <!-- Artist images will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="font-family: Akira Expanded;">Manifesto</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p style="color: white; font-family: Akira Expanded; font-size: large;">Founded in 2021 by genre-blending artist AARYA, The Elysium Collective is a forward-thinking music label born to break boundaries in the world of new wave Hip-Hop and R&B. Built on a vision of musical freedom, emotional honesty, and fearless creativity, the label serves as a sanctuary for artists pushing sonic and visual limits. What started as a personal mission quickly grew into a movement rooted in underground culture, elevated by future-facing sound. Soon after its launch, Canadian artist BANZ2FADED joined the fold—bringing his atmospheric production, dark-toned melodies, and sharp lyrical instincts. Their partnership expanded the Collective's reach globally, bridging borders through shared emotion and artistry.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div id="projects" class="projects-slider-wrapper" style="margin-left: 10px; margin-right: 10px;">
+        <div class="section-header">
+            <h2 style="font-family: Akira Expanded;">Recent Projects</h2>
+        </div>
+    
+        <div class="projects-slider" id="projectsSlider">
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p1.jpg" alt="Project 1">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/4gQ5vAabif1y5GrkvH4siN?si=438c085c8bcc4894" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Honestly</h3>
+                    <p>Aarya, Rawhit</p>
+                    <!-- <span class="project-tag">Rock</span> -->
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p2.jpg" alt="Project 2">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/3JrAI7UUSQcOCbUCPBW5oJ?si=d6147778451649c2" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Alright</h3>
+                    <p>BANZ2FADED</p>
+                    <!-- <span class="project-tag">R&B</span> -->
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p3.jpg" alt="Project 3">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/24Viwos4DIqCXqwMeMGTTE?si=278cc332a98f48c9" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Can't Relate</h3>
+                    <p>Aarya, Alpha's World</p>
+                    <!-- <span class="project-tag">Electronic</span> -->
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p4.png" alt="Project 4">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/album/3lIGrjsIcaMlvPqE0UL8lR?si=jYMgn-DjSCm-j-G4zhEybA" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Runnin It Up</h3>
+                    <p>BANZ2FADED</p>
+                    <!-- <span class="project-tag">Folk</span> -->
+                </div>
+            </div>
+            
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p5.jpg" alt="Project 5">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/4LSA0m2TbU1oRd5LyTOenQ?si=18f12be946aa4883" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>TOO FAST</h3>
+                    <p>Aarya</p>
+                    <!-- <span class="project-tag">Rock</span> -->
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p6.jpg" alt="Project 6">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/1WGyFXYMMwDDwDrdPvx5FK?si=3dd549b436ee4a16" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Just Like That</h3>
+                    <p>BANZ2FADED</p>
+                    <!-- <span class="project-tag">R&B</span> -->
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p7.jpg" alt="Project 7">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/5im4BaVLY7J7UfL6mvhFC8?si=31071e829044443e" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>VLONE</h3>
+                    <p>Aarya</p>
+                    <!-- <span class="project-tag">Electronic</span> -->
+                </div>
+            </div>
+    
+            <div class="project">
+                <div class="project-image">
+                    <img src="images/projects/p8.png" alt="Project 8">
+                    <div class="project-overlay">
+                        <a href="https://open.spotify.com/track/5sQy3rZvrY5Clncm9VMQWr?si=aa583f053b074a28" class="play-btn" aria-label="Play song"><i class="fas fa-play"></i></a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>FADE AWAY</h3>
+                    <p>BANZ2FADED</p>
+                    <!-- <span class="project-tag">Folk</span> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="slider-btn prev-btn" onclick="scrollSlider(-1)">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-btn next-btn" onclick="scrollSlider(1)">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+
+    </div>
+    
+
+    <!-- Artists Section -->
+    <section id="artists" class="artists">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="font-family: Akira Expanded;">Our Artists</h2>
+            </div>
+            <div class="artists-grid">
+                <!-- Artist cards will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p class="left">&copy; 2025 The Elysium Collective. All rights reserved.</p>
+            <p class="right">Powered by <a href="https://nexyzgroup.com/" target="_blank"><strong>Nexyz Group</strong></a></p>
+        </div>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
+</html>
